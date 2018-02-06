@@ -1,4 +1,4 @@
 # Temperatur_Sensor
 test
 
-Erster Test von Git in verbindung mit Platformio
+Erster Test von Git in Verbindung mit Platformio
