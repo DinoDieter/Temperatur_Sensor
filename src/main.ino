@@ -11,6 +11,7 @@ Position     Länge    Wert
 17           4        DNS-Server IP-Adresse
 18-20        3        Frei
 21-52        32       WLAN SSID
+
 53-116       64       WLAN PWD
 117-148      32       SENSORSSID
 149-212      64       SENSORPWD
@@ -575,7 +576,7 @@ void setup() {
   float TEMPTEMPERATUR2=0;
   float TEMPLUFTFEUCHTE2=0;
   
-  if (FIRSTSTARTFLAG == 112) {
+  if (FIRSTSTARTFLAG == 111) {
     digitalWrite(DHTPOWERPIN, 1);
   
     Serial.println(F("Sensorkalibrierung gestartet..."));
